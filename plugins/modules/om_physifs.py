@@ -142,6 +142,15 @@ options:
               apn:
                 type: str
                 description: apn
+              authtype:
+                type: str
+                description: authtype
+              carrier_firmware:
+                type: str
+                description: carrier_firmware
+              runtime_status:
+                type: str
+                description: runtime_status
               username:
                 type: str
                 description: username

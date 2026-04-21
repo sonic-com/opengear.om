@@ -57,6 +57,16 @@ class PhysifsArgs(object):  # pylint: disable=R0903
                                                                              'sims': {'elements': 'dict',
                                                                                       'options': {
                                                                                           'apn': {'type': 'str'},
+                                                                                          'authtype': {'type': 'str'},
+                                                                                          'carrier_firmware': {'type': 'str'},
+                                                                                          'runtime_status': {'options': {
+                                                                                                      'apn': {'type': 'str'},
+                                                                                                      'carrier': {'type': 'str'},
+                                                                                                      'iccid': {'type': 'str'},
+                                                                                                      'id': {'type': 'str'},
+                                                                                                      'status': {'type': 'str'},
+                                                                                                   },
+                                                                                          },
                                                                                           'fail_probe_address': {
                                                                                               'type': 'str'},
                                                                                           'fail_probe_count': {
