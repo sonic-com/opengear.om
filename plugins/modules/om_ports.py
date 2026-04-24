@@ -90,6 +90,9 @@ options:
           databits:
             description: The number of data bits in a character.
             type: str
+          dtr_mode:
+            description: The DTR (Data Terminal Ready) signaling mode for the port.
+            type: str
           escape_char:
             description: (consoleServer mode only) The escape character for pmshell.
             type: str
